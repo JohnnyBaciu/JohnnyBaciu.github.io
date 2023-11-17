@@ -164,3 +164,11 @@ header img{
     }
     
   }
+/* Safari 11+ */
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+selector { 
+.steak2img, .steak3img{
+      visibility: hidden;
+    }}
+}}
