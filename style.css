@@ -36,6 +36,9 @@ header img{
     display: flex;
     
   }
+ .steak2img, .steak3img{
+      visibility: hidden;
+    }
 
   /* Style the navigation menu */
   nav {
@@ -130,12 +133,14 @@ header img{
   @media screen and (-webkit-min-device-pixel-ratio:0)
 and (min-resolution:.001dpcm) {
   .steak2img{
+    visibility: visible;
     position: absolute;
     height:200px;
     bottom: 90px;
     left:140px;
   }
   .steak3img{
+    visibility: visible;
     position: absolute;
     height:200px;
     bottom: 20px;
