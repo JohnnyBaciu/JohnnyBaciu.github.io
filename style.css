@@ -165,8 +165,13 @@ header img{
     
   }
 /* Safari 11+ */
-_::-webkit-full-page-media, _:future, :root .safari_only {
-    .steak2img, .steak3img{
+@media not all and (min-resolution:.001dpcm) { @media {
+
+    .safari_only { 
+
+        .steak2img, .steak3img{
       visibility: hidden;
     }
-}
+
+    }
+}}
